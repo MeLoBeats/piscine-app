@@ -3,12 +3,10 @@
 </script>
 
 <template>
-  <div>
-    <header>
-      <HomeLayout />
-    </header>
-    <router-view />
-  </div>
+  <header>
+    <HomeLayout />
+  </header>
+  <router-view />
 </template>
 
 <style>
